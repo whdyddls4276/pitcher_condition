@@ -1,6 +1,5 @@
 # MLB 선발투수 컨디션 조기 예측
 
-[![CI](https://github.com/seong-eun822/mlb_pitcher_condition_prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/seong-eun822/mlb_pitcher_condition_prediction/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 
 경기 초반 15구만으로 그날 남은 경기의 투수 컨디션(헛스윙 유도력)을 예측합니다.
@@ -14,14 +13,12 @@
 | **최종 모델 (v4)** | 79 feature · Val R² 0.0918 · Test R² 0.0399 · 컨디션 분류 AUC 0.65 |
 | **최대 개선** | 무브먼트 feature 편입으로 Test R² +42% (100-seed 검증, p=3e-33) |
 
-### 본인 역할
-
-2인 팀 프로젝트. **정형 데이터 모델링 전담** + 영상 파이프라인 슬롯 0~2 담당.
+### 주요 작업
 
 - 타겟 지표 재정의 및 예측 가능성 검증
 - Feature Engineering (무브먼트·회전축·ACWR 등 79개)
-- 모델링·튜닝·SHAP 해석, paired t-test 기반 가설 검증 전 과정
-- 영상 파이프라인 중 슬롯 0~2 수집·처리 (슬롯 3~4는 조원)
+- 모델링·튜닝·SHAP 해석, paired t-test 기반 가설 검증
+- 영상에서 투구 장면·투수를 선별해 관절 좌표 추출
 
 ---
 
@@ -318,4 +315,4 @@ Statcast 데이터는 `notebooks/1_statcast/01_data_collection.ipynb`로 재수�
 
 ## 팀
 
-2인 팀 프로젝트입니다. 담당 범위는 상단 [본인 역할](#본인-역할)을 참고하세요.
+팀 프로젝트입니다. 이 저장소는 개인 저장소이며, 다룬 범위는 상단 [주요 작업](#주요-작업)을 참고하세요.
