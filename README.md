@@ -316,8 +316,3 @@ Statcast 데이터는 `notebooks/1_statcast/01_data_collection.ipynb`로 재수�
 ## 팀
 
 팀 프로젝트입니다. 이 저장소는 개인 저장소이며, 다룬 범위는 상단 [주요 작업](#주요-작업)을 참고하세요.
-
----
-
-<sub>🧪 <b>진행 중인 실험</b> — 팀 프로젝트 이후 개인적으로 이어서, 위 한계점의 "정지 1프레임" 대신 <b>릴리스 전후 프레임 시퀀스</b>로 자세 변화를 다루는 실험을 진행 중입니다. 결과는 확정 전입니다.<br>
-<code>notebooks/2_video/05_video_sequence_pipeline.ipynb</code> → <code>notebooks/3_modeling/2_experiments/17_video_sequence_experiment.ipynb</code> · 모듈 <code>src/video/video_sequence_features.py</code></sub>
